@@ -1,0 +1,21 @@
+.app {
+  width: 700px;
+  height: auto;
+  background-color: rgb(29, 98, 228);
+  border: 3px solid rgb(53, 44, 44);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.winner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 40px;
+  border: 2px black solid;
+  background-color: rgb(185, 95, 95);  
+}
+

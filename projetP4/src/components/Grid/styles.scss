@@ -1,0 +1,33 @@
+.cells {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95px;
+    height: 95px;
+    background-color: white;
+    color: black;
+    border: rgb(12, 11, 11) 3px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 2px;
+    
+
+    .cellsPlayerOne {
+        background-color: #fc6565;
+        border-radius: 50%;
+         height: 100%;
+         width: 100%;
+    }
+
+    .cellsPlayerTwo {
+        background-color: #fcf665;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+    .cellsData {
+        text-align: center;
+        padding-top: 20px;
+    }
+} 
